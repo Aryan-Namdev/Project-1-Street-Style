@@ -11,7 +11,7 @@
 ![Chrome OS](https://img.shields.io/badge/chrome%20os-3d89fc?style=for-the-badge&logo=google%20chrome&logoColor=white)
 
 * ## Link for netlify:
-    [google](www.google.com)
+    [Street-style-website](https://street-style-proj.netlify.app/)
 
 
  * ## Overview
