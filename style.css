@@ -1,0 +1,265 @@
+/* =====
+Universal
+======== */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* =====
+Container
+======== */
+
+.container{
+    padding:  25px 40px;
+    /* background-color: rgb(209, 96, 96); */
+    height: 100vh;
+}
+
+/* =====
+Navbar
+======== */
+
+.navbar-container{
+    height: 30%vh;
+    /* background-color: turquoise; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container{
+    /* width: 20%; */
+    display: inline-block;
+    /* height: 10px; */
+}
+
+.brand-logo{
+    /* display: inline; */
+    height: 50px;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-container{
+    width: 80px;
+    /* background-color: #111; */
+    align-items: center;
+    justify-content: center;
+}
+
+ul li{
+    padding: 0 20px;
+    /* display: flex;
+    justify-content: center; */
+    font-family: "Orbitron";
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.list-item:hover{
+    color: rgb(67, 67, 67);
+    font-size: 25PX;
+    transition: 250ms ease-in-out;
+    border-bottom: 2px solid black;
+    border-width: 2px;
+
+}
+
+/* =====
+Search section
+======== */
+
+.button-group{
+    display: flex;
+    align-items: center;
+}
+
+.search-icon{
+    padding-right: 10px;
+    margin-top: 7px;
+    /* height: 5px; */
+}
+
+svg{
+    height: 25px;
+
+}
+svg:hover{
+    height: 22px;
+    transition: 300MS ease-in-out;
+
+}
+.nav-button{
+    padding: 5px 40px;
+    border: black solid 2px;
+    border-radius: 15px;
+    color: rgb(23, 23, 23);
+    background: #fff;
+    font-family: "poppins";
+    
+}
+.nav-button:hover{
+    background: rgb(218, 218, 218);
+    color: rgb(27, 27, 27);
+    transition: 300MS ease-in-out;
+
+}
+
+/* =====
+hero
+======== */
+
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: black; */
+    
+
+}
+
+/* =====
+Hero Left
+======== */
+
+.hero-image{
+    height: 22rem;
+    margin-left: 0;
+    position: relative;
+    margin-bottom: 8em;
+    /* bottom: 320px; */
+}
+
+.square img{
+    height: 18rem;
+    position: absolute;
+    bottom: 3%;
+    right: 0;
+    left: 7%;
+}
+
+/* =====
+Hero Right
+======== */
+
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    /* background-color: #111; */
+    width: 70%;
+    /* display: inline-block; */
+    /* flex: 2; */
+    align-items: center;
+    justify-content: flex-start;
+    /* text-align: center; */
+    /* height: 50rem; */
+    padding-top: 0;
+    /* margin-top: 150px; */
+    font-family: "Orbitron";
+}
+
+.square ,.star, .globe{
+    z-index: -1;
+}
+
+
+.hero-container-right>*{
+    padding-bottom: 2rem;
+}
+
+.globe img{
+    height: 2.5rem;
+    position: relative;
+    left: 15rem;
+    bottom: 14rem;
+}
+
+.star img{
+    position: relative;
+    left: 40rem;
+    bottom: 13rem;
+    height: 2rem;
+}
+
+/* =====
+Hero Content
+======== */
+
+.hero-heading{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.hero-description{
+    width: 28rem;
+    font-size: .7rem;
+    font-family: "Poppins";
+    font-weight: 300;
+    text-align: center;
+}
+
+/* =====
+buttons
+======== */
+
+.btn-footer{
+    padding: 3px 30px;
+    border: black solid 2px;
+    border-radius: 10px;
+    color: grey;
+    background: #fff;
+    font-family: "Orbitron";
+    font-size: .8rem;
+}
+
+
+.button-join{
+    background-color: rgb(21, 21, 21);
+    color: rgb(231, 231, 231);
+}
+
+.button-join:hover{
+    box-shadow: 0px 0px 15px 40px rgb(231, 231, 231) inset;
+    transition: 300ms ease-out;
+    color: black;
+}
+.button-email:hover{
+    box-shadow: 0px 0px 15px 40px rgb(12, 12, 12) inset;
+    transition: 300ms ease-out;
+    color: rgb(239, 239, 239);
+}
+
+/* =====
+Footer Social Icons
+======== */
+
+.icons img{
+    padding: 10px;
+    height: 1.5rem;
+}
+
+div .contact-heading{
+    font-family: "poppins";
+    color: grey;
+    font-weight: 400;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.footer{
+    margin-top: 60px;
+}
+
+.icons img:hover{
+    transform: translateY(-1px);
+    transition: 200ms ease-in-out;
+}
